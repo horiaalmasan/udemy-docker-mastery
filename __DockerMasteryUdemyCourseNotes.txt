@@ -1,0 +1,19 @@
+A container is a running instance of an image...
+
+► COMMANDS:
+• docker --help
+• docker ps 							--> view your containers
+• docker run -it ubuntu					--> interactive with tty
+• docker run -it --name horia	ubuntu 	-->	same as above but it is easier to close ...
+• CTRL + P + Q		(or type exit)		--> get out
+• docker attach horia (or container ID)	--> gets you back into horiaa
+• docker images							--> will show you all the images you have downloaded
+• docker rmi hello-world				--> remove the existing hello-world image
+• docker rmi -f hello-world				--> FORCE remove the existing hello-world image
+
+https://github.com/hermantnet/hello-system
+
+kubernetes » see minikube for installing/managing kubernetes (on a local machine)
+
+■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ 
+not an IF but a WHEN
